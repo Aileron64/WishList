@@ -1,0 +1,101 @@
+@import 'framework7/css/framework7.bundle.css';
+@import 'framework7-icons/css/framework7-icons.css';
+@import 'material-design-icons/iconfont/material-icons.css';
+
+.page
+{
+    background-color: darkgray;
+}
+
+.navbar .title
+{
+    line-height: 2em;
+}
+
+#magic button
+{
+    background-color: blue;
+}
+
+#loginSignin
+{
+    background-color: white;
+    width: 12em;
+}
+
+#logout
+{
+    background-color: white;
+    width: 7em;
+}
+
+#map-here
+{
+    height: 75vh;
+    margin-top: .5em;
+}
+
+#closeSave
+{
+    margin: 0;
+    width: 12em;
+}
+
+#theNote
+{
+    width:100%;
+    height:100%;
+}
+
+#tab2
+{
+    min-height:75vh;
+}
+
+.card
+{
+    margin-bottom: 3.5em;
+}
+
+.remove, .purchased
+{
+    background-color: white;
+    margin: 3px;
+    width: 12em;
+    float: right;
+}
+
+.remove
+{
+    color: red;
+}
+
+.purchased
+{
+    color: blue;
+}
+
+.purchased-item
+{
+    text-decoration: line-through;
+}
+
+.card-img
+{
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+}
+
+img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-text
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
